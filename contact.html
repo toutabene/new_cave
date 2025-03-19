@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>SFCV : Spécialiste Français n°1 des Caves à Vin</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<div id="entete"><!--<!TODO1>-->
+  <img 
+     src="images/logo.png"class="imageflottante"
+     alt="image de la cave à vin">
+  <h1>SCFV</h1>
+  <h3>N° 1 des caves à vin</h3>
+  </div>
+  <hr>
+  <div id="menu-container">
+    <div id="menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div id="menu" class="menu-hidden"><!--<!TODO2>-->
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="produits.html">Produits</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="mentions.html">mentions</a></li>
+      </ul>
+    </div>
+  </div>
+      <header>
+      </header>
+      <hr>
+      <nav>         
+      </nav>
+      <article>
+         <h2>Demande de catalogue</h2>
+         <p>Demandez-nous vite notre catalogue gratuit !<br>
+         Il vous sera livré dans les meilleurs délais. </p>
+         <FORM  ACTION="mailto:toutabene@gmail.com?subject=demande de catalogue" METHOD=POST ENCTYPE="text/plain"> 
+            <!--TODO-->
+          
+ 
+   
+ 
+  
+      
+      
+       <label for="civilite">Civilité</label><br />
+       <select name="civilite" id="civilite">
+           <option hidden>Choisissez</option>
+           <option value="Monsieur">Monsieur</option>
+           <option value="Madame">Madame</option>
+
+      </select>
+<pre>       
+      <label for="nom">
+Nom :   </label><input type="text" name="nom" id="nom" />
+<label for="prenom">
+Prenom :</label><input type="text" name="prenom" id="prenom" />
+ <label for="email">
+E-mail :</label><input type="email" name="email" id="email" />
+      </pre>
+   <fieldset>
+       <p>
+           <label for="adresse">adresse :</label>
+           <textarea name="adresse" id="adresse" cols="40" rows="4"></textarea>
+       </p>
+   
+      <label for="ville">ville</label>
+       <input type="text" name="ville" id="ville" />
+
+       <label for="codepostal">code postal</label>
+       <input type="text" name="codepostal" id="codepostal" />
+       </fieldset>
+       <p>
+       <input type="checkbox" name="newslettre" id="newslettre" /> <label for="newslettre">je veux recevoir la newlettre</label><br />
+      </p>
+       <input type="submit" value="Envoyer" />
+       <INPUT TYPE=RESET VALUE=Effacer>
+         </FORM>
+         <p>Ce site a fait l'objet d'une déclaration auprès de la 
+Commission Nationale Informatique et Libertés (CNIL). Conformément aux 
+dispositions de la loi Informatiques et libertés du 6/01/1978, vous 
+disposez d'un droit de modification, de rectification et 
+d'opposition/suppression des données vous concernant, ce par simple 
+demande à : info@sfcv.com</p>
+         <p>N'hésitez pas à prendre contact avec l'équipe SFCV. Nous 
+répondrons à toutes vos questions sur l'aménagement de votre cave ou le 
+choix de votre armoire à vin. Tous les conseils de professionnels pour 
+conserver vos meilleurs vins en toute sécurité pour le plaisir de les 
+déguster en toute convivialité.</p> 
+      </article>
+      <hr>
+
+   <div id="pied">
+  <!--<!TODO4></div>-->
+<p>&copy; SFCV -<a href="mentions.html">MENTIONS</a></p>
+  <p>l'alcool est bon pour le moral</p>
+</div>
+<script src="menu.js"></script>
+</body>
+</html>
+
